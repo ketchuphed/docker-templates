@@ -117,10 +117,10 @@
   <Config Name="GDM Network Discovery Port" Target="32412" Default="32412" Mode="udp" Description="Container Port: 32412" Type="Port" Display="always" Required="false" Mask="false">32412</Config>
   <Config Name="GDM Network Discovery Port" Target="32413" Default="32413" Mode="udp" Description="Container Port: 32413" Type="Port" Display="always" Required="false" Mask="false">32413</Config>
   <Config Name="GDM Network Discovery Port" Target="32414" Default="32414" Mode="udp" Description="Container Port: 32414" Type="Port" Display="always" Required="false" Mask="false">32414</Config>
-  <Config Name="Time Zone" Target="TZ" Default="America/New York" Mode="" Description="Container Variable: TZ" Type="Variable" Display="always" Required="false" Mask="false">America/Detroit</Config>
-  <Config Name="Plex Claim" Target="PLEX_CLAIM" Default="claim-" Mode="" Description="Container Variable: PLEX_CLAIM" Type="Variable" Display="always" Required="false" Mask="false">claim-KJqhrPxFxzXKmosgTipD</Config>
-  <Config Name="Movies Directory" Target="/Movies" Default="" Mode="rw" Description="Container Path: /Movies" Type="Path" Display="always" Required="false" Mask="false">/mnt/user/Plex Library/Movies</Config>
-  <Config Name="Television Directory" Target="/TV Shows" Default="" Mode="rw" Description="Container Path: /TV Shows" Type="Path" Display="always" Required="false" Mask="false">/mnt/user/Plex Library/Television</Config>
+  <Config Name="Time Zone" Target="TZ" Default="America/New York" Mode="" Description="Container Variable: TZ" Type="Variable" Display="always" Required="false" Mask="false">America/New York</Config>
+  <Config Name="Plex Claim" Target="PLEX_CLAIM" Default="claim-" Mode="" Description="Container Variable: PLEX_CLAIM" Type="Variable" Display="always" Required="false" Mask="false"></Config>
+  <Config Name="Movies Directory" Target="/Movies" Default="" Mode="rw" Description="Container Path: /Movies" Type="Path" Display="always" Required="false" Mask="false">/path/to/Movies</Config>
+  <Config Name="Television Directory" Target="/TV Shows" Default="" Mode="rw" Description="Container Path: /TV Shows" Type="Path" Display="always" Required="false" Mask="false">/path/to/Television</Config>
   <Config Name="Transcode Directory" Target="/transcode" Default="/mnt/user/appdata/pms-docker/tmp" Mode="rw" Description="Container Path: /transcode" Type="Path" Display="advanced" Required="false" Mask="false">/mnt/user/appdata/pms-docker/tmp</Config>
   <Config Name="Plex UID" Target="PLEX_UID" Default="99" Mode="" Description="Container Variable: PLEX_UID" Type="Variable" Display="advanced" Required="true" Mask="false">99</Config>
   <Config Name="Plex GID" Target="PLEX_GID" Default="100" Mode="" Description="Container Variable: PLEX_GID" Type="Variable" Display="advanced" Required="true" Mask="false">100</Config>
