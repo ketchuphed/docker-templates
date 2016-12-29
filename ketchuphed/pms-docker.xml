@@ -5,9 +5,9 @@
   <Registry>https://hub.docker.com/r/plexinc/pms-docker/</Registry>
   <Network>host</Network>
   <Privileged>false</Privileged>
-  <Support/>
+  <Support>http://lime-technology.com/forum/index.php?topic=55109.0</Support>
   <Overview>This is a template for the official Plex Media Server Docker.</Overview>
-  <Category/>
+  <Category>MediaServer:Video MediaServer:Music MediaServer:Photos</Category>
   <WebUI>http://[IP]:[PORT:32400]/</WebUI>
   <TemplateURL/>
   <Icon/>
